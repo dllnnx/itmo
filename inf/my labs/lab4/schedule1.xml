@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<all>
+	<day_id type="int">0</day_id>
+	<day type="str">Понедельник</day>
+	<schedule type="list">
+		<item type="dict">
+			<title type="str">Информатика</title>
+			<class-format type="str">Очный</class-format>
+			<type type="str">Лабораторная</type>
+			<place type="dict">
+				<address type="str">Кронверкский пр., д.49, лит.А</address>
+				<room type="str">ауд. 2117</room>
+			</place>
+			<time type="dict">
+				<period type="int">2</period>
+				<start_time type="str">10:00</start_time>
+				<end_time type="str">11:30</end_time>
+			</time>
+			<teacher type="str">Авксентьева Елена Юрьевна</teacher>
+		</item>
+		<item type="dict">
+			<title type="str">Информатика</title>
+			<class-format type="str">Очный</class-format>
+			<type type="str">Лабораторная</type>
+			<place type="dict">
+				<address type="str">Кронверкский пр. д.49 лит.А</address>
+				<room type="str">ауд. 2117</room>
+			</place>
+			<time type="dict">
+				<period type="int">3</period>
+				<start_time type="str">11:40</start_time>
+				<end_time type="str">13:10</end_time>
+			</time>
+			<teacher type="str">Авксентьева Елена Юрьевна</teacher>
+		</item>
+		<item type="dict">
+			<title type="str">Математический анализ (продвинутый уровень)</title>
+			<class-format type="str">Очный</class-format>
+			<type type="str">Лекция</type>
+			<place type="dict">
+				<address type="str">Кронверкский пр. д.49 лит.А</address>
+				<room type="str">ауд. Orange Classroom (1229)</room>
+			</place>
+			<time type="dict">
+				<period type="int">6</period>
+				<start_time type="str">17:00</start_time>
+				<end_time type="str">18:30</end_time>
+			</time>
+			<teacher type="str">Трифанова Екатерина Станиславовна</teacher>
+		</item>
+	</schedule>
+</all>
+

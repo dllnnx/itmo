@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<day> 
+		<day_id> 0</day_id> 
+		<day> Понедельник</day> 
+		<schedule> 
+			<title> Информатика</title> 
+			<class-format> Очный</class-format> 
+			<type> Лабораторная</type> 
+			<place> 
+				<address> Кронверкский пр., д.49, лит.А</address> 
+				<room> ауд. 2117</room> 
+			</place> 
+			<time> 
+				<period> 2</period> 
+				<start_time> 10:00</start_time> 
+				<end_time> 11:30</end_time> 
+			</time> 
+			<teacher> Авксентьева Елена Юрьевна</teacher> 
+		</schedule> 
+		<schedule> 
+			<title> Информатика</title> 
+			<class-format> Очный</class-format> 
+			<type> Лабораторная</type> 
+			<place> 
+				<address> Кронверкский пр. д.49 лит.А</address> 
+				<room> ауд. 2117</room> 
+			</place> 
+			<time> 
+				<period> 3</period> 
+				<start_time> 11:40</start_time> 
+				<end_time> 13:10</end_time> 
+			</time> 
+			<teacher> Авксентьева Елена Юрьевна</teacher> 
+		</schedule> 
+		<schedule> 
+			<title> Математический анализ (продвинутый уровень)</title> 
+			<class-format> Очный</class-format> 
+			<type> Лекция</type> 
+			<place> 
+				<address> Кронверкский пр. д.49 лит.А</address> 
+				<room> ауд. Orange Classroom (1229)</room> 
+			</place> 
+			<time> 
+				<period> 6</period> 
+				<start_time> 17:00</start_time> 
+				<end_time> 18:30</end_time> 
+			</time> 
+			<teacher> Трифанова Екатерина Станиславовна</teacher> 
+		</schedule> 
+	</day> 
+	<day> 
+		<day_id> 1</day_id> 
+		<day> Вторник</day> 
+		<schedule> 
+			<title> Основы дискретной математики (продвинутый уровень)</title> 
+			<class-format> Очный</class-format> 
+			<type> Лекция</type> 
+			<place> 
+				<address> Кронверкский пр. д.49 лит.А</address> 
+				<room> ауд. Orange Classroom (1229)</room> 
+			</place> 
+			<time> 
+				<period> 6</period> 
+				<start_time> 17:00</start_time> 
+				<end_time> 18:30</end_time> 
+			</time> 
+			<teacher> Пастор Алексей Владимирович</teacher> 
+		</schedule> 
+		<schedule> 
+			<title> Основы дискретной математики (продвинутый уровень)</title> 
+			<class-format> Очный</class-format> 
+			<type> Практика</type> 
+			<place> 
+				<address> Кронверкский пр. д.49 лит.А</address> 
+				<room> ауд. 1419</room> 
+			</place> 
+			<time> 
+				<period> 7</period> 
+				<start_time> 18:40</start_time> 
+				<end_time> 20:10</end_time> 
+			</time> 
+			<teacher> Карпов Дмитрий Валерьевич</teacher> 
+		</schedule> 
+	</day> 
+</root>
