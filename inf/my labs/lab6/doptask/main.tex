@@ -1,0 +1,234 @@
+\thispagestyle{empty} % нет номеров страниц
+\documentclass[12pt,a4paper]{report}
+\usepackage[T1,T2A]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage[10pt]{extsizes}
+\usepackage{geometry}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{graphicx, caption}
+\usepackage{wrapfig}
+\usepackage{amssymb}
+
+
+\geometry{top=4em,right=2em,left=2em,bottom=4em}
+
+\begin{document}
+\newcommand{\Mainclt}{\raisebox{0pt}[\headheight][30pt]{\vbox{\hbox to\textwidth{74\hfilКНИГА I ПРЕДЛ. XLVIII. ТЕОРЕМА\hfil}}}}
+
+\begin{minipage}[t]{0.3\textwidth}
+  \hfill \\
+  \begin{center}
+    \begin{tikzpicture}
+    \draw[orange,fill=orange] (0,-4) --  (.7,-4) arc(0:90:0.7) -- cycle;
+    \draw[yellow, fill=yellow] (0,-4) -- (-.7, -4) arc(180:90:0.7) -- cycle;
+      \draw[blue, ultra thick] (0,0) -- (0,-4);
+      \draw[orange, ultra thick] (0,0) -- (2.5, -4);
+      \draw[black, ultra thick] (2.5, -4) -- (0, -4);
+      \draw[dashed, orange, ultra thick] (0,0) -- (-2.5, -4);
+      \draw[dashed, black, ultra thick] (0,-4) -- (-2.5,-4);
+      \node[above] at (0,0) {{\tiny$B$}};
+      \node[below] at (0,-4) {{\tiny$A$}};
+      \node[right] at (2.5, -4) {{\tiny$C$}};
+      \node[left] at (-2.5, -4) {{\tiny$D$}};
+    
+    \end{tikzpicture}
+    
+  \end{center}
+\end{minipage}
+\hfil
+\begin{minipage}[t]{0.57\textwidth}
+  \Mainclt
+  \begin{wrapfigure}{l}{0.2\linewidth}
+    \includegraphics[width=0.9\linewidth]{E.jpg}
+  \end{wrapfigure}\\
+  \slshape сли \textit{в треугольнике квадрат одной стороны
+  \begin{tikzpicture}
+    \draw[orange,ultra thick] (0,0) -- (1,0);
+    \node[above] at (0,0) {{\tiny$B$}};
+    \node[above] at (1,0) {{\tiny$C$}};
+  \end{tikzpicture} равен сумме квадратов двух дру- \\
+  гих сторон
+  \begin{tikzpicture}
+    \draw[blue,ultra thick] (0,0) -- (1,0);
+    \node[above] at (0,0) {{\tiny$A$}};
+    \node[above] at (1,0) {{\tiny$B$}};
+  \end{tikzpicture} и
+  \begin{tikzpicture}
+    \draw[black,ultra thick] (0,0) -- (1,0);
+    \node[above] at (0,0) {{\tiny$A$}};
+    \node[above] at (1,0) {{\tiny$C$}};
+  \end{tikzpicture}, то угол
+    \begin{tikzpicture}
+        \draw[orange,fill=orange] (-0.7,0) --  (0,0) arc(0:90:0.7) -- cycle;
+        \node[left] at (-0.7, 0.7) {{\tiny$B$}};
+        \node[left] at (-0.7, 0){{\tiny$A$}};
+        \node[right] at (0, 0) {{\tiny$C$}};
+    \end{tikzpicture}, заключенный между этими двумя сторонами прямой.}
+  
+  \upshape
+  \begin{center}
+   Проведем
+    \begin{tikzpicture}
+      \draw[dashed, black,ultra thick] (0,0) -- (1,0);
+    \node[above] at (0,0) {{\tiny$A$}};
+    \node[above] at (1,0) {{\tiny$D$}};
+  \end{tikzpicture}
+  $\perp$
+    \begin{tikzpicture}
+        \draw[blue,ultra thick] (0,0) -- (1,0);
+        \node[above] at (0,0) {{\tiny$A$}};
+        \node[above] at (1,0) {{\tiny$B$}};
+    \end{tikzpicture} \\
+     и =
+    \begin{tikzpicture}
+    \draw[black,ultra thick] (0,0) -- (1,0);
+    \node[above] at (0,0) {{\tiny$A$}};
+    \node[above] at (1,0) {{\tiny$B$}};
+  \end{tikzpicture} (пр. I.{\tiny II}, I.{\tiny3}),\\
+    также проведем
+    \begin{tikzpicture}
+      \draw[dashed, orange, ultra thick] (0,0) -- (1,0);
+    \node[above] at (0,0) {{\tiny$B$}};
+    \node[above] at (1,0) {{\tiny$D$}};
+  \end{tikzpicture}.\\
+    \vspace{0.4cm}
+    Поскольку
+    \begin{tikzpicture}
+      \draw[dashed, black,ultra thick] (0,0) -- (1,0);
+    \node[above] at (0,0) {{\tiny$A$}};
+    \node[above] at (1,0) {{\tiny$D$}};
+  \end{tikzpicture} =
+   \begin{tikzpicture}
+    \draw[black,ultra thick] (0,0) -- (1,0);
+    \node[above] at (0,0) {{\tiny$A$}};
+    \node[above] at (1,0) {{\tiny$C$}};
+  \end{tikzpicture} (постр.)\\
+  \[
+    \begin{tikzpicture}
+      \draw[dashed, black,ultra thick] (0,0) -- (1,0);
+    \node[above] at (0,0) {{\tiny$A$}};
+    \node[above] at (1,0) {{\tiny$D$}};
+  \end{tikzpicture} ^{\text{2}} =
+   \begin{tikzpicture}
+    \draw[black,ultra thick] (0,0) -- (1,0);
+    \node[above] at (0,0) {{\tiny$A$}};
+    \node[above] at (1,0) {{\tiny$C$}};
+  \end{tikzpicture} ^{\text{2}};\]
+  \vspace{0.4cm}
+  \begin{math}
+  \therefore
+  \begin{tikzpicture}
+      \draw[dashed, black,ultra thick] (0,0) -- (1,0);
+    \node[above] at (0,0) {{\tiny$A$}};
+    \node[above] at (1,0) {{\tiny$D$}};
+  \end{tikzpicture} ^{\text{2}} + 
+  \begin{tikzpicture}
+        \draw[blue,ultra thick] (0,0) -- (1,0);
+        \node[above] at (0,0) {{\tiny$A$}};
+        \node[above] at (1,0) {{\tiny$B$}};
+    \end{tikzpicture} ^{\text{2}} =
+    \begin{tikzpicture}
+    \draw[black,ultra thick] (0,0) -- (1,0);
+    \node[above] at (0,0) {{\tiny$A$}};
+    \node[above] at (1,0) {{\tiny$C$}};
+  \end{tikzpicture} ^{\text{2}} +
+  \begin{tikzpicture}
+        \draw[blue,ultra thick] (0,0) -- (1,0);
+        \node[above] at (0,0) {{\tiny$A$}};
+        \node[above] at (1,0) {{\tiny$B$}};
+    \end{tikzpicture} ^{\text{2}}
+  \end{math} \\
+  но
+   \begin{math}
+    \begin{tikzpicture}
+      \draw[dashed, black,ultra thick] (0,0) -- (1,0);
+    \node[above] at (0,0) {{\tiny$A$}};
+    \node[above] at (1,0) {{\tiny$D$}};
+  \end{tikzpicture} ^{\text{2}} + 
+  \begin{tikzpicture}
+        \draw[blue,ultra thick] (0,0) -- (1,0);
+        \node[above] at (0,0) {{\tiny$A$}};
+        \node[above] at (1,0) {{\tiny$B$}};
+    \end{tikzpicture} ^{\text{2}} = 
+    \begin{tikzpicture}
+      \draw[dashed, orange, ultra thick] (0,0) -- (1,0);
+    \node[above] at (0,0) {{\tiny$B$}};
+    \node[above] at (1,0) {{\tiny$D$}};
+  \end{tikzpicture} ^{\text{2}}
+  \end{math} (пр.I.{\tiny47}), \\
+  и
+  \begin{math}
+      \begin{tikzpicture}
+    \draw[black,ultra thick] (0,0) -- (1,0);
+    \node[above] at (0,0) {{\tiny$A$}};
+    \node[above] at (1,0) {{\tiny$C$}};
+  \end{tikzpicture} ^{\text{2}} +
+  \begin{tikzpicture}
+        \draw[blue,ultra thick] (0,0) -- (1,0);
+        \node[above] at (0,0) {{\tiny$A$}};
+        \node[above] at (1,0) {{\tiny$B$}};
+    \end{tikzpicture} ^{\text{2}} =
+     \begin{tikzpicture}
+    \draw[orange,ultra thick] (0,0) -- (1,0);
+    \node[above] at (0,0) {{\tiny$B$}};
+    \node[above] at (1,0) {{\tiny$C$}};
+  \end{tikzpicture}
+  \end{math} (гип.)\\
+  \vspace{0.4cm}
+  \begin{math}
+      \therefore
+      \begin{tikzpicture}
+      \draw[dashed, orange, ultra thick] (0,0) -- (1,0);
+    \node[above] at (0,0) {{\tiny$B$}};
+    \node[above] at (1,0) {{\tiny$D$}};
+  \end{tikzpicture} ^{\text{2}} = 
+  \begin{tikzpicture}
+    \draw[orange,ultra thick] (0,0) -- (1,0);
+    \node[above] at (0,0) {{\tiny$B$}};
+    \node[above] at (1,0) {{\tiny$C$}};
+  \end{tikzpicture} ^{\text{2}}
+  \end{math}, \\
+  \vspace{0.4cm}
+  $\therefore$
+  \begin{tikzpicture}
+      \draw[dashed, orange, ultra thick] (0,0) -- (1,0);
+    \node[above] at (0,0) {{\tiny$B$}};
+    \node[above] at (1,0) {{\tiny$D$}};
+  \end{tikzpicture} = 
+  \begin{tikzpicture}
+    \draw[orange,ultra thick] (0,0) -- (1,0);
+    \node[above] at (0,0) {{\tiny$B$}};
+    \node[above] at (1,0) {{\tiny$C$}};
+  \end{tikzpicture}; \\
+  \vspace{0.4cm}
+  и $\therefore$    
+  \begin{tikzpicture}
+        \draw[yellow, fill=yellow] (0,-1) -- (-.7, -1) arc(180:90:0.7) -- cycle;;
+        \node[left] at (-0.7, -1) {{\tiny$D$}};
+        \node[right] at (0, -1){{\tiny$A$}};
+        \node[above] at (0, -0.3) {{\tiny$B$}};
+    \end{tikzpicture} = 
+    \begin{tikzpicture}
+        \draw[orange,fill=orange] (-0.7,0) --  (0,0) arc(0:90:0.7) -- cycle;
+        \node[above] at (-0.7, 0.7) {{\tiny$B$}};
+        \node[left] at (-0.7, 0){{\tiny$A$}};
+        \node[right] at (0, 0) {{\tiny$C$}};
+    \end{tikzpicture}
+    (пр. I.8), \\
+    \vspace{0.4cm}
+    следовательно
+    \begin{tikzpicture}
+        \draw[orange,fill=orange] (-0.7,0) --  (0,0) arc(0:90:0.7) -- cycle;
+        \node[above] at (-0.7, 0.7) {{\tiny$B$}};
+        \node[left] at (-0.7, 0){{\tiny$A$}};
+        \node[right] at (0, 0) {{\tiny$C$}};
+    \end{tikzpicture}
+    прямой угол. 
+  
+  \end{center}
+  \begin{flushright}
+    ч. т. д.
+  \end{flushright}
+\end{minipage}
+\end{document}
